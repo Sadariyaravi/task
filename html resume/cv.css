@@ -1,0 +1,23 @@
+body{
+    background-color: rgba(198, 109, 233, 0.459);
+    border: 10px solid #ee150a;
+    padding: 25px;
+    margin: 450px;
+<<<<<<< HEAD
+=======
+    width: 1000px;
+    height: 900px;
+>>>>>>> 971b97d0a4a38cb60f734f0b176dc9099788d8d0
+}
+
+table{
+    border: black;
+}
+p {
+    font-size: larger;
+
+}
+li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}

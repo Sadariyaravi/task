@@ -1,0 +1,21 @@
+
+#dataform{
+    float: left;
+    padding: 20px;
+    border: 1px solid;
+}
+#data{
+    float: left;
+    padding: 20px;
+    width: 300px;
+    border: 1px solid;
+    margin-left: 10px;
+}
+#data > div{
+    padding: 20px;
+    border-bottom: 1px solid;
+}
+#key #text{
+    width: 200px;
+
+}
