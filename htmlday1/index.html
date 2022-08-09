@@ -7,7 +7,50 @@
     <title>Vite App</title>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
+    <div id="app">
+      <form action="#" id="detail form">
+        <label for="Employee name">Enter your name: </label>
+        <input type="text" name="Employee name" id="ename" required><br><br>
+
+        <label for="Employee age">Enter your age: </label>
+        <input type="number" name="Employee age" id="eage" required><br><br>
+
+        <span>Please select your Gender: </span>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" required>
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" required> <br><br>
+
+        <label for="Employee designation">Enter your designation: </label>
+        <input type="text" name="Employee designation" id="edesignation" required><br><br>
+
+        <label for="Employee salary">Enter your salary: </label>
+        <input type="number" name="Employee salary" id="esalary" required><br><br>
+
+        <label for="Employee location">Enter your location</label>
+        <select name="Employee location" id="elocation" required>
+          <option value="morbi">Morbi</option>
+          <option value="ahmedabad">Ahmedabad</option>
+          <option value="mumbai">Mumbai</option>
+          <option value="surat">Surat</option>
+          <option value="vadodara">Vadodara</option>
+        </select>
+
+        <label for="Employee email">Enter your Email id : </label>
+        <input type="email" name="Employee email" id="eemail" required> <br><br>
+
+        <label for="Employee date of j">Date of joining : </label>
+        <input type="date" name="Employee date of j" id="edoj"> <br><br>
+
+        <label for="Employee contact">Contact number : </label>
+        <input type="tel" name="Employee contact" id="econtact" pattern="[0-9]{10}"> <br><br>
+
+
+        <input type="submit" value="submit">
+
+
+      </form>
+    </div>
+    
   </body>
 </html>
